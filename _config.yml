@@ -1,90 +1,163 @@
-title: devlopr
-subtitle: A Jekyll Theme Built for Developers
+title: Marco Faltelli
+subtitle: PhD Student, University of Rome Tor Vergata
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a Jekyll Theme Built For Developers
+  Marco Faltelli - Homepage
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://marcofaltelli.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
-urls:
-    - text: About Me
-      url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact Me
-      url : /contact
-    - text: Styleguide
-      url: /styleguide
-    - text: Get Started
-      url: /get-started
 
 # Edit these details
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hello, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
+author_logo: photo.jpg
+author: Marco Faltelli
+author_bio: 
+        - I am a PhD student in Computer Science at the <a href="https://en.uniroma2.it/">University of Rome Tor Vergata</a>. My work is under the supervision of <a href="http://netgroup.uniroma2.it/people/faculties/giuseppebianchi/">Prof. Giuseppe Bianchi</a> and <a href="https://francescoquaglia.github.io/">Prof. Francesco Quaglia</a>. My research activities combine computer networking and computer architecture to design programmable state machine based architectures and primitives for both network hardware and software solutions. In October 2019 I received my Master's Degree in Computer Engineering cum laude at the University of Rome Tor Vergata.
+        - From 2017 to 2019 I worked as a Student Researcher for <a href="https://www.cnit.it/">CNIT</a>, partecipating to the <a href="https://www.5g-picture-project.eu/">5G-PICTURE EU project</a>.
+        - I further collaborate with <a href="https://axbryd.com/">Axbryd</a>, a startup company founded from the <a href="http://netprog.uniroma2.it/">NetProg</a> group of the University of Rome "Tor Vergata".
+author_email: "marco.faltelli@uniroma2.it"
+author_location: Rome, Italy
+
+author_research_interests:
+            - topic: Fast Packet Processing, High Performance Computing, Hardware-Software Co-design, Data Center Networks, SmartNIC/FPGA offloading
+            - topic: In-Network Computing, Data Stream Processing, Distributed and In-Network Machine Learning
 
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Axbryd SRL
+              company_logo: axbryd.png
+              company_url: https://axbryd.com/
+              designation: Research Engineer
+              descriptions: 
+                - description: Architect for offloading data stream processing tasks to stateful network devices.
+              period: Dec. 2019 - Present
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: CNIT
+              company_logo: cnit.png
+              company_url: https://www.cnit.it/
+              designation: Student Researcher
+              descriptions:
+                - description: Developer and maintainer for <a href="http://netprog.uniroma2.it/flowblaze/">FlowBlaze</a> and <a href="http://netprog.uniroma2.it/xtra/">XTRA</a>, open source projects for fast and stateful packet processing in hardware. Projects conducted under the H2020-5G PICTURE grant.
+                - description: Developed a railway use-case scenario for ensuring session continuity as part of the <a href="https://www.5g-picture-project.eu/">H2020-5G PICTURE</a> project.
+              period: Oct. 2017 - Oct. 2019
               visibility: true
 
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: torvergata.png
+                college_name: University of Rome "Tor Vergata"
+                college_url: https://en.uniroma2.it/
+                college_degree: PhD in Computer Science
+                description: "Advisors: Prof. Giuseppe Bianchi, Prof. Francesco Quaglia"
+                period: Nov. 2019 - Present
                 visibility: true
+              - college_logo: torvergata.png
+                college_name: University of Rome "Tor Vergata"
+                college_url: https://en.uniroma2.it/
+                college_degree: Master's Degree in Computer Engineering
+                description: "Advisors: Prof. Giuseppe Bianchi, Prof. Francesco Quaglia"
+                graduation: true
+                thesis: A state-machine based platform for portable transport protocols
+                evaluation: 110/110 cum laude
+                period: Oct. 2017 - Oct. 2019
+                visibility: true
+              - college_logo: torvergata.png
+                college_name: University of Rome "Tor Vergata"
+                college_url: https://en.uniroma2.it/
+                college_degree: Bachelor's Degree in Computer Engineering
+                description: "Evaluation: 110/110"
+                graduation: false
+                period: Oct. 2014 - Oct. 2017
+                visibility: true
+
+publications:
+                - title: "XTRA: Towards Portable Transport Layer Functions"
+                  authors: G. Bianchi, M. Welzl, A. Tulumello, F. Gringoli, G. Belocchi, M. Faltelli, and S. Pontarelli
+                  conference: IEEE Transactions on Network and Service Management
+                  year: Dec. 2019
+                  accept_ratio_enable: true
+                  accept_ratio: 15%
+                  imp_factor_enable: true
+                  imp_factor: 4.682
+                  pdf_enable: true
+                  pdf_local: false
+                  pdf: https://ieeexplore.ieee.org/abstract/document/8877780
+                  bibtex_enable: true
+                  bibtex: xtra
+                  slides_enable: false
+                  slides:
+                  visibility: true
+
+                - title: "Offloading Online MapReduce tasks with Stateful Programmable Data Planes"
+                  authors: V. Bruschi, M. Faltelli, A. Tulumello, S. Pontarelli, F. Quaglia, and G. Bianchi
+                  conference: 1st Workshop on Flexible Network Data Plane Processing (NETPROC 2020)
+                  accept_ratio_enable: false
+                  accept_ratio:
+                  imp_factor_enable: false
+                  imp_factor:
+                  pdf_enable: true
+                  pdf_local: true
+                  pdf: FB_MapReduce_NetProc2020.pdf
+                  bibtex_enable: true
+                  bibtex: mapreduce_netproc
+                  slides_enable: false
+                  slides:
+                  visibility: true
+                
+                - title: A fully portable TCP implementation using XFSMs
+                  authors: G. Bianchi, M. Welzl, A. Tulumello, G. Belocchi, M. Faltelli, and S. Pontarelli
+                  conference: Proceedings of the ACM SIGCOMM 2018 Conference on Posters and Demos
+                  accept_ratio_enable: false
+                  accept_ratio:
+                  imp_factor_enable: false
+                  imp_factor:
+                  pdf_enable: true
+                  pdf_local: false
+                  pdf: https://dl.acm.org/doi/abs/10.1145/3234200.3234237
+                  bibtex_enable: true
+                  bibtex: sigcomm_xtrademo
+                  slides_enable: false
+                  slides:
+                  visibility: true
+
+                - title:
+                  authors:
+                  conference:
+                  accept_ratio_enable:
+                  accept_ratio:
+                  imp_factor_enable:
+                  imp_factor:
+                  pdf_enable:
+                  pdf_local: false
+                  pdf:
+                  bibtex_enable:
+                  bibtex:
+                  slides_enable:
+                  slides:
+                  visibility: false
 
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
+#              - project_thumbnail: gamershub.png
+#                project_title: Gamers Hub
+ #               project_description: A Platform built for Gamers and Game Devs
+  #              project_url: https://gamershub.in
+                visibility: false
+    #          - project_thumbnail: hack4r.PNG
+     #           project_title: Hack4r
+      #          project_description: A Platform built for Hackers and Penetration Testers
+       #         project_url: https://hack4r.com
+        #        visibility: false
 
 # social links
-twitter_username: johndoe
-github_username:  johndoe
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
-
+scholar_username: https://scholar.google.com/citations?user=joXyxfoAAAAJ&hl=it
+linkedin_username: marcofaltelli
+mail_username: marco.faltelli@uniroma2.it
 #for comments using disqus
-disqus_shortname: sujay-kundu
+#disqus_shortname: sujay-kundu
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+#wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # formspree (contact form)
 formspree_email: johndoe@gmail.com
@@ -100,7 +173,8 @@ google_analytics: UA-46783401-10
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
-show_author_project_details: true
+show_author_project_details: false
+show_author_research_interests: true
 
 # algolia search
 algolia:

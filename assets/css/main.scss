@@ -329,7 +329,7 @@ header {
     }
     .social-link {
         color: var(--social-link-color);
-        font-size: 15px;
+        font-size: 20px;
         padding: 5px;
         margin: 2px;
         text-decoration: none !important;
@@ -349,6 +349,10 @@ header {
 
 }
 
+a{
+    display: inline;
+}
+
 #author_projects {
     .project-img {
         width: 300px;
@@ -364,8 +368,8 @@ header {
 
 
 .company-logo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .author-profile-img {
@@ -622,7 +626,10 @@ footer {
      }
  }
 
-
+ .container span {
+    display: inline-block;
+  }
+  
  .switch:checked:before {
      content: '';
      width: 15px;

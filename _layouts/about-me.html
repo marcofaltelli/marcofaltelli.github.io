@@ -104,7 +104,7 @@ layout: default
          <div class="col-lg-7">
             {% if site.author_bio %}
             <div class="card">
-                <h1 class="card-title">About</h1>
+                <h1 class="card-title">Bio</h1>
                 <p> {{ site.author_bio }}</p>
             </div>
             {% endif %}
@@ -158,12 +158,12 @@ layout: default
 
 
             {% if site.show_author_education_details == true %}
-            <div class="card">
+            <div class="col-lg-7">
                 <h1 class="card-title"> Education </h1>
                 <br />
                 {% for detail in site.author_education_details %}
                 {% if detail.visibility == true %}
-                <div class="row">
+                <div class="row align-items-center">
                         <div class="col-md-2">
                             <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}" class="company-logo" />
                         </div>
