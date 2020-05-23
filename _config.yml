@@ -117,8 +117,8 @@ publications:
                   slides_enable: false
                   slides:
                   visibility: true
-                  
-                - title: "Back to the Future: Towards Hardware "Netputing" Architectures"
+
+                - title: "Back to the Future: Towards Hardware ''Netputing'' Architectures"
                   authors: G. Bianchi, M. Faltelli and V. Bruschi
                   conference: 2020 Mediterranean Communication and Computer Networking Conference (MedComNet)
                   accept_ratio_enable: false
@@ -134,7 +134,7 @@ publications:
                   slides:
                   visibility: true
 
-                  - title:
+                - title:
                   authors:
                   conference:
                   accept_ratio_enable:
