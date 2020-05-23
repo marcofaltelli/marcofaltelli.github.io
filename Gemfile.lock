@@ -254,7 +254,7 @@ GEM
       forwardable-extended (~> 2.6)
     progressbar (1.10.1)
     public_suffix (3.1.1)
-    puma (4.3.3)
+    puma (4.3.5)
       nio4r (~> 2.0)
     rack (1.6.13)
     rack-jekyll (0.5.0)
@@ -327,7 +327,7 @@ DEPENDENCIES
   jekyll-sitemap (~> 1.4.0)
   jgd (~> 1.12)
   kramdown
-  puma
+  puma (>= 4.3.4)
   rack-jekyll
   rake
   tzinfo (~> 1.2)
