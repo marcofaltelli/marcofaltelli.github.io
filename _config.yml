@@ -102,6 +102,22 @@ publications:
                   slides:
                   visibility: true
                 
+                - title: "Back to the Future: Towards Hardware ''Netputing'' Architectures"
+                  authors: G. Bianchi, M. Faltelli and V. Bruschi
+                  conference: 2020 Mediterranean Communication and Computer Networking Conference (MedComNet)
+                  accept_ratio_enable: false
+                  accept_ratio:
+                  imp_factor_enable: false
+                  imp_factor:
+                  pdf_enable: false
+                  pdf_local: false
+                  pdf:
+                  bibtex_enable: true
+                  bibtex: backtothefuture
+                  slides_enable: false
+                  slides:
+                  visibility: true
+
                 - title: A fully portable TCP implementation using XFSMs
                   authors: G. Bianchi, M. Welzl, A. Tulumello, G. Belocchi, M. Faltelli, and S. Pontarelli
                   conference: Proceedings of the ACM SIGCOMM 2018 Conference on Posters and Demos
@@ -118,21 +134,6 @@ publications:
                   slides:
                   visibility: true
 
-                - title: "Back to the Future: Towards Hardware ''Netputing'' Architectures"
-                  authors: G. Bianchi, M. Faltelli and V. Bruschi
-                  conference: 2020 Mediterranean Communication and Computer Networking Conference (MedComNet)
-                  accept_ratio_enable: false
-                  accept_ratio:
-                  imp_factor_enable: false
-                  imp_factor:
-                  pdf_enable: false
-                  pdf_local: false
-                  pdf:
-                  bibtex_enable: true
-                  bibtex: backtothefuture
-                  slides_enable: false
-                  slides:
-                  visibility: true
 
                 - title:
                   authors:
