@@ -7,6 +7,8 @@ gem 'rack-jekyll'
 gem 'rake'
 #gem 'puma'
 gem "puma", ">= 4.3.4"
+gem "activesupport", ">= 6.0.3.1"
+
 
 
 
