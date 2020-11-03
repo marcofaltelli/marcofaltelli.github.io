@@ -69,6 +69,22 @@ author_education_details:
                 visibility: true
 
 publications:
+                 - title: "Metronome: adaptive and precise intermittent packet retrieval in DPDK"
+                  authors: M. Faltelli, G. Belocchi, F. Quaglia, S. Pontarelli, G. Bianchi
+                  conference: ACM CoNEXT 2020
+                  year: Dec. 2020
+                  accept_ratio_enable: false
+                  accept_ratio:
+                  imp_factor_enable: false
+                  pdf_enable: false
+                  pdf_local: false
+                  pdf:
+                  bibtex_enable: true
+                  bibtex: metronome
+                  slides_enable: false
+                  slides:
+                  visibility: true
+
                 - title: "XTRA: Towards Portable Transport Layer Functions"
                   authors: G. Bianchi, M. Welzl, A. Tulumello, F. Gringoli, G. Belocchi, M. Faltelli, and S. Pontarelli
                   conference: IEEE Transactions on Network and Service Management
