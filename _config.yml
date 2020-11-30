@@ -23,22 +23,23 @@ author_research_interests:
             - topic: In-Network Computing, Data Stream Processing, Distributed and In-Network Machine Learning
 
 author_work_experiences:
-            - company_name: Axbryd SRL
-              company_logo: axbryd.png
-              company_url: https://axbryd.com/
-              designation: Research Engineer
-              descriptions: 
-                - description: Architect for offloading data stream processing tasks to stateful network devices.
-              period: Dec. 2019 - Present
-              visibility: true
             - company_name: CNIT
               company_logo: cnit.png
               company_url: https://www.cnit.it/
               designation: Student Researcher
               descriptions:
+                - description: Currently working on the <a href="https://www.locus-project.eu/">LOCUS</a> project.
                 - description: Developer and maintainer for <a href="http://netprog.uniroma2.it/flowblaze/">FlowBlaze</a> and <a href="http://netprog.uniroma2.it/xtra/">XTRA</a>, open source projects for fast and stateful packet processing in hardware. Projects conducted under the H2020-5G PICTURE grant.
                 - description: Developed a railway use-case scenario for ensuring session continuity as part of the <a href="https://www.5g-picture-project.eu/">H2020-5G PICTURE</a> project.
-              period: Oct. 2017 - Oct. 2019
+              period: Oct. 2017 - present
+              visibility: true
+            - company_name: University of Rome "Tor Vergata"
+              company_logo: torvergata.png
+              company_url: https://en.uniroma2.it/
+              designation: Academic Tutor
+              descriptions:
+                - description: Academic tutor for the Computer Fundamentals course
+              period: Oct. 2020 - Present
               visibility: true
 
 author_education_details:
@@ -76,9 +77,9 @@ publications:
                   accept_ratio_enable: false
                   accept_ratio:
                   imp_factor_enable: false
-                  pdf_enable: false
+                  pdf_enable: true
                   pdf_local: false
-                  pdf:
+                  pdf: https://dl.acm.org/doi/pdf/10.1145/3386367.3432730
                   bibtex_enable: true
                   bibtex: metronome
                   slides_enable: false
