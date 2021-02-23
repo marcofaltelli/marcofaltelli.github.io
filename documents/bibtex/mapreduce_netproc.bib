@@ -1,0 +1,28 @@
+@INPROCEEDINGS{Brus2002:Offloading,
+AUTHOR="Valerio Bruschi and Marco Faltelli and Angelo Tulumello and Salvatore
+Pontarelli and Francesco Quaglia and Giuseppe Bianchi",
+TITLE="Offloading Online {MapReduce} tasks with Stateful Programmable Data Planes",
+BOOKTITLE="1st Workshop on Flexible Network Data Plane Processing (NETPROC 2020)",
+ADDRESS="Paris, France",
+DAYS=23,
+MONTH=feb,
+YEAR=2020,
+KEYWORDS="in-network computing; MapReduce; SDN; Stream Processing",
+ABSTRACT="In-network computation based on programmable data plane hardware provides a
+tremendous opportunity to improve throughput, latency and reduce congestion
+in data center scenarios. However, a judicious use of these network devices
+must be done based on their limited resources and the specific features of
+the application to be offloaded.
+This paper promotes FlowBlaze, a stateful hardware programmable data plane,
+as a candidate for offloading online MapReduce tasks. Above all, tasks with
+strict time requirements can benefit from in-network computing since it can
+significantly lower their latency. Given that MapReduce is a generic
+programming paradigm, in this paper we first try to identify which subset
+of MapReduce operations can be transparently offloaded to a specific
+hardware architecture and which are the limitations of this offloading in
+terms of memory and computational resources.
+After, we show how the FlowBlaze architecture can match the
+partition/aggregation paradigm and we discuss a set of primitives exposed
+by the FlowBlaze abstraction to perform mapping and aggregation. Finally,
+we prove the feasibility of this approach applying it to a click-stream
+analysis use case."}
