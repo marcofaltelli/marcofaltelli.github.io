@@ -162,6 +162,12 @@ layout: default
                     <span style="width:60px;"><a href="{{item.pdf}}">PDF</a></span>
                     {% endif %}
                 {% endif %}
+                {% if item.video_enable == true %}
+                <span style="width:60px;"><a href="{{item.video}}">Video</a></span>
+                {% endif %}
+                {% if item.slides_enable == true %}
+                <span style="width:60px;"><a href="{{item.slides}}">Slides</a></span>
+                {% endif %}
                     </p>
             {% endfor %}
             </div>

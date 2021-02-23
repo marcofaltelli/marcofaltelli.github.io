@@ -74,14 +74,16 @@ publications:
                   authors: M. Faltelli, G. Belocchi, F. Quaglia, S. Pontarelli, G. Bianchi
                   conference: ACM CoNEXT 2020
                   year: Dec. 2020
-                  accept_ratio_enable: false
-                  accept_ratio:
+                  accept_ratio_enable: true
+                  accept_ratio: 23%
                   imp_factor_enable: false
                   pdf_enable: true
                   pdf_local: false
                   pdf: https://dl.acm.org/doi/pdf/10.1145/3386367.3432730
                   bibtex_enable: true
                   bibtex: metronome
+                  video_enable: true
+                  video: https://dl.acm.org/doi/abs/10.1145/3386367.3432730#sec-supp
                   slides_enable: false
                   slides:
                   visibility: true
