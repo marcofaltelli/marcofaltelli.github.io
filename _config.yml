@@ -6,7 +6,7 @@ title: Marco Faltelli # the website title (if blank, full name will be used inst
 first_name: Marco
 middle_name:
 last_name: Faltelli
-email: marco.faltelli@uniroma2.it
+email: marco.faltelli@enea.it
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Marco Faltelli's personal homepage. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
