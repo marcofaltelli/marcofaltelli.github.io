@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Room D004</p>
-    <p>Via della Ricerca Scientifica 1</p>
-    <p>00133 Rome, Italy</p>
+    <p>Room FF50049</p>
+    <p>Via Enrico Fermi 45</p>
+    <p>00044 Frascati, Italy</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a researcher at the <a href="https://en.uniroma2.it/">University of Rome Tor Vergata</a>.
+I am a Researcher in the <a href="https://www.enea.it/en/">ENEA</a> High Performance Computing Lab.
 
 In June 2023 I obtained my PhD in Computer Science under the supervision of <a href="http://netgroup.uniroma2.it/people/faculties/giuseppebianchi/">Prof. Giuseppe Bianchi</a> and <a href="https://francescoquaglia.github.io/">Prof. Francesco Quaglia</a>.\\
 My research activities combine computer networking and computer architecture to design high performing, scalable architectures for both network hardware and software solutions.
