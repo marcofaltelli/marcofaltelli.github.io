@@ -30,4 +30,4 @@ In the past, I collaborated with <a href="https://www.cnit.it/">CNIT</a> on the 
 
 I further collaborate with <a href="https://axbryd.com/">Axbryd</a>, a startup company founded from the <a href="http://netprog.uniroma2.it/">NetProg</a> group of the University of Rome "Tor Vergata".
 
-I am always looking for collaboration and feedbacks. If your research interests are close to mine, feel free to reach out!
+I am always looking for collaboration and feedbacks, also from students. If your research interests are close to mine, feel free to reach out!
